@@ -4,7 +4,7 @@ RUN apt-get update && \
     apt-get install -y redis-server && \
     apt-get clean
     
-ENV BUILD_NUMBER "${BUILD_NUMBER}"
+ENV BUILD_NUMBER ${BUILD_NUMBER}
 
 #ENV BUILD_NUMBER1 "${env.BUILD_NUMBER}"
 
