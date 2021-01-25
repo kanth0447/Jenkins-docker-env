@@ -5,7 +5,8 @@ RUN apt-get update && \
     apt-get clean
  
 ARG BUILD_NUMBER
-#ENV BUILD_NUMBER $build
+
+ENV BUILD_NUMBER1 $build
 
 #ENV BUILD_NUMBER1 "${env.BUILD_NUMBER}"
 
